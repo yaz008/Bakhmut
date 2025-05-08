@@ -7,24 +7,30 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2025-05-08 03:36:07 +0300",
       "minecraft:snowy_slopes": "2025-05-06 02:30:20 +0300",
       "minecraft:old_growth_pine_taiga": "2025-05-06 01:11:36 +0300",
-      "minecraft:dark_forest": "2025-05-06 01:25:39 +0300",
       "minecraft:forest": "2025-05-06 00:53:35 +0300",
       "minecraft:taiga": "2025-05-06 01:10:54 +0300",
+      "minecraft:lush_caves": "2025-05-06 01:20:30 +0300",
+      "minecraft:ice_spikes": "2025-05-08 03:24:15 +0300",
+      "minecraft:frozen_river": "2025-05-08 03:24:34 +0300",
+      "minecraft:ocean": "2025-05-06 01:26:02 +0300",
+      "minecraft:cherry_grove": "2025-05-06 01:39:42 +0300",
+      "minecraft:birch_forest": "2025-05-06 01:31:02 +0300",
+      "minecraft:old_growth_spruce_taiga": "2025-05-06 01:12:02 +0300",
+      "minecraft:beach": "2025-05-08 03:36:06 +0300",
+      "minecraft:dark_forest": "2025-05-06 01:25:39 +0300",
       "minecraft:river": "2025-05-06 01:06:58 +0300",
       "minecraft:stony_shore": "2025-05-06 01:25:59 +0300",
-      "minecraft:lush_caves": "2025-05-06 01:20:30 +0300",
+      "minecraft:snowy_plains": "2025-05-08 03:24:55 +0300",
       "minecraft:dripstone_caves": "2025-05-07 21:46:36 +0300",
+      "minecraft:snowy_taiga": "2025-05-08 03:26:33 +0300",
       "minecraft:frozen_peaks": "2025-05-06 15:45:22 +0300",
       "minecraft:old_growth_birch_forest": "2025-05-06 01:25:53 +0300",
       "minecraft:deep_dark": "2025-05-08 02:18:10 +0300",
-      "minecraft:ocean": "2025-05-06 01:26:02 +0300",
-      "minecraft:cherry_grove": "2025-05-06 01:39:42 +0300",
       "minecraft:grove": "2025-05-06 15:45:38 +0300",
       "minecraft:meadow": "2025-05-06 00:49:50 +0300",
-      "minecraft:birch_forest": "2025-05-06 01:31:02 +0300",
-      "minecraft:old_growth_spruce_taiga": "2025-05-06 01:12:02 +0300",
       "minecraft:plains": "2025-05-06 00:57:47 +0300"
     },
     "done": false
@@ -530,6 +536,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-05-06 01:01:21 +0300",
+      "chicken": "2025-05-08 03:43:10 +0300",
       "cooked_chicken": "2025-05-06 01:31:23 +0300",
       "cooked_beef": "2025-05-06 15:21:48 +0300"
     },
@@ -2231,15 +2238,117 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-05-08 02:44:53 +0300"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2025-05-08 02:47:59 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone": {
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
-      "has_redstone_block": "2025-05-08 02:44:53 +0300"
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-05-08 02:58:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-05-08 02:58:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-05-08 03:00:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-05-08 02:58:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-05-08 03:21:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-05-08 03:42:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-05-08 03:21:07 +0300"
     },
     "done": true
   },
