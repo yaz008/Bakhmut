@@ -1055,6 +1055,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:cave_spider": "2025-05-10 05:55:30 +0300",
       "minecraft:skeleton": "2025-05-06 16:08:06 +0300",
       "minecraft:enderman": "2025-05-06 15:40:49 +0300",
       "minecraft:spider": "2025-05-06 15:40:59 +0300",
