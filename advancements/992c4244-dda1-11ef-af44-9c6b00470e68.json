@@ -538,6 +538,7 @@
       "cooked_porkchop": "2025-05-06 01:01:21 +0300",
       "chicken": "2025-05-08 03:43:10 +0300",
       "cooked_chicken": "2025-05-06 01:31:23 +0300",
+      "rotten_flesh": "2025-05-14 01:43:56 +0300",
       "cooked_mutton": "2025-05-08 04:11:05 +0300",
       "cooked_beef": "2025-05-06 15:21:48 +0300"
     },
@@ -1061,6 +1062,7 @@
       "minecraft:spider": "2025-05-06 15:40:59 +0300",
       "minecraft:zombie": "2025-05-06 15:16:53 +0300",
       "minecraft:creeper": "2025-05-06 15:23:17 +0300",
+      "minecraft:drowned": "2025-05-14 01:43:37 +0300",
       "minecraft:slime": "2025-05-10 04:17:50 +0300"
     },
     "done": false
@@ -2691,15 +2693,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_slab": {
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
-      "has_planks": "2025-05-14 01:36:36 +0300"
+      "has_iron_nugget": "2025-05-14 01:36:10 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_button": {
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
     "criteria": {
-      "has_planks": "2025-05-14 01:36:39 +0300"
+      "has_planks": "2025-05-14 01:36:36 +0300"
     },
     "done": true
   },
@@ -2715,15 +2717,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-14 01:36:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-05-14 01:36:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-14 01:36:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-05-14 01:36:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-14 01:36:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-05-14 01:36:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2025-05-14 01:36:39 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
-      "has_planks": "2025-05-14 01:36:36 +0300"
+      "has_planks": "2025-05-14 01:36:39 +0300"
     },
     "done": true
   },
@@ -2751,27 +2789,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_button": {
-    "criteria": {
-      "has_planks": "2025-05-14 01:36:36 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-05-14 01:36:39 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-05-14 01:36:36 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_sign": {
-    "criteria": {
-      "has_planks": "2025-05-14 01:36:36 +0300"
     },
     "done": true
   },
@@ -2784,24 +2804,6 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-05-14 01:36:39 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-05-14 01:36:36 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
-    "criteria": {
-      "has_iron_nugget": "2025-05-14 01:36:10 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_fence": {
-    "criteria": {
-      "has_planks": "2025-05-14 01:36:36 +0300"
     },
     "done": true
   },
