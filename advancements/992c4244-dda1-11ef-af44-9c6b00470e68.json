@@ -2825,7 +2825,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2025-05-14 15:33:55 +0300",
-      "minecraft:soul_sand_valley": "2025-05-18 20:01:25 +0300"
+      "minecraft:soul_sand_valley": "2025-05-18 20:01:25 +0300",
+      "minecraft:warped_forest": "2025-05-18 22:26:48 +0300"
     },
     "done": false
   },
@@ -2994,6 +2995,12 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_brown_mushroom": "2025-05-18 19:56:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-05-18 22:27:06 +0300"
     },
     "done": true
   },
