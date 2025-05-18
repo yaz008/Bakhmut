@@ -1057,6 +1057,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-05-18 23:54:02 +0300",
       "minecraft:cave_spider": "2025-05-10 05:55:30 +0300",
       "minecraft:skeleton": "2025-05-06 16:08:06 +0300",
       "minecraft:piglin": "2025-05-14 15:40:20 +0300",
@@ -3061,6 +3062,24 @@
   "minecraft:nether/find_fortress": {
     "criteria": {
       "fortress": "2025-05-18 23:38:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-05-18 23:57:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-05-18 23:57:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-05-18 23:57:37 +0300"
     },
     "done": true
   },
