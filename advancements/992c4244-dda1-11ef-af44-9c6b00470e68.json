@@ -2824,7 +2824,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2025-05-14 15:33:55 +0300"
+      "minecraft:nether_wastes": "2025-05-14 15:33:55 +0300",
+      "minecraft:soul_sand_valley": "2025-05-18 20:01:25 +0300"
     },
     "done": false
   },
@@ -2981,6 +2982,18 @@
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_nether_brick": "2025-05-14 16:32:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-05-18 19:56:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-05-18 19:56:24 +0300"
     },
     "done": true
   },
