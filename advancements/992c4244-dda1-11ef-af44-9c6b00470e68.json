@@ -1060,6 +1060,7 @@
       "minecraft:blaze": "2025-05-18 23:54:02 +0300",
       "minecraft:skeleton": "2025-05-06 16:08:06 +0300",
       "minecraft:phantom": "2025-05-19 23:05:12 +0300",
+      "minecraft:wither_skeleton": "2025-05-20 01:12:02 +0300",
       "minecraft:ghast": "2025-05-14 15:43:47 +0300",
       "minecraft:ender_dragon": "2025-05-19 03:51:39 +0300",
       "minecraft:shulker": "2025-05-19 04:44:20 +0300",
@@ -2831,6 +2832,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-05-20 00:51:01 +0300",
       "minecraft:nether_wastes": "2025-05-14 15:33:55 +0300",
       "minecraft:soul_sand_valley": "2025-05-18 20:01:25 +0300",
       "minecraft:warped_forest": "2025-05-18 22:26:48 +0300"
