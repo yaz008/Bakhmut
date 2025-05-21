@@ -2835,9 +2835,10 @@
       "minecraft:crimson_forest": "2025-05-20 00:51:01 +0300",
       "minecraft:nether_wastes": "2025-05-14 15:33:55 +0300",
       "minecraft:soul_sand_valley": "2025-05-18 20:01:25 +0300",
-      "minecraft:warped_forest": "2025-05-18 22:26:48 +0300"
+      "minecraft:warped_forest": "2025-05-18 22:26:48 +0300",
+      "minecraft:basalt_deltas": "2025-05-22 02:02:07 +0300"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
@@ -3448,6 +3449,24 @@
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-05-19 22:58:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-05-22 02:02:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-05-22 02:02:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-05-22 02:01:31 +0300"
     },
     "done": true
   },
