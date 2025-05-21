@@ -1068,6 +1068,7 @@
       "minecraft:piglin": "2025-05-14 15:40:20 +0300",
       "minecraft:enderman": "2025-05-06 15:40:49 +0300",
       "minecraft:silverfish": "2025-05-19 02:56:30 +0300",
+      "minecraft:magma_cube": "2025-05-22 02:17:03 +0300",
       "minecraft:endermite": "2025-05-19 03:15:27 +0300",
       "minecraft:spider": "2025-05-06 15:40:59 +0300",
       "minecraft:zombie": "2025-05-06 15:16:53 +0300",
@@ -3452,6 +3453,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-05-22 02:01:31 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-05-22 02:02:32 +0300"
@@ -3464,9 +3471,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+  "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
-      "has_bone_block": "2025-05-22 02:01:31 +0300"
+      "has_magma_cream": "2025-05-22 02:17:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-05-22 02:20:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-05-22 02:20:30 +0300"
     },
     "done": true
   },
